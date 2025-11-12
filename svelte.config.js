@@ -5,7 +5,7 @@ const config = {
 	kit: {
 		adapter: staticAdapter(),
 		paths: {
-			base: '/xalapaAR'
+			base: '/xalapAR'
 		}
 	}
 };
