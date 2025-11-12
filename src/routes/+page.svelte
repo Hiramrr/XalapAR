@@ -1,8 +1,16 @@
+<script>
+	import { goto } from '$app/navigation';
+
+	function irACamara() {
+		goto('/camara');
+	}
+</script>
+
 <main>
 	<div class="contenido">
 		<h1 class="titulo">XalapAR</h1>
 		<h3 class="subtitulo">Proyecto final Interfaces de usuario avanzadas</h3>
-		<button class="comenzar">Experimentar xalapa en AR ➪</button>
+		<button class="comenzar" on:click={irACamara}>Experimentar xalapa en AR ➪</button>
 	</div>
 </main>
 
