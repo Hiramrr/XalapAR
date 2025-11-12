@@ -9,7 +9,7 @@ const config = {
 			assets: 'dist'
 		}),
 		paths: {
-			base: '/xalapAR'
+			base: '/XalapAR'
 		}
 	}
 };

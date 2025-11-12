@@ -32,19 +32,24 @@
 </svelte:head>
 
 <main>
-	<div style="margin: 0; overflow: hidden">
-		<a-scene embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;">
-			<a-marker type="pattern" url="/patt/sus.patt">
+	<div
+		style="margin: 0; overflow: hidden; position: fixed; top: 0; left: 0; width: 100%; height: 100%;"
+	>
+		<a-scene
+			embedded
+			arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+			vr-mode-ui="enabled: false"
+		>
+			<a-marker type="pattern" url="/XalapAR/patt/sus.patt">
 				<a-entity
-					gltf-model="/modelos/llama.glb"
+					gltf-model="/XalapAR/modelos/llama.glb"
 					position="0 0 0"
 					rotation="0 100 0"
-					scale="2 2 2"
+					scale="0.01 0.01 0.01"
 					animation-mixer
-				></a-entity>
+				/>
 			</a-marker>
-
-			<a-entity camera></a-entity>
+			<a-entity camera />
 		</a-scene>
 	</div>
 </main>
