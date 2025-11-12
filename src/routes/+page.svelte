@@ -2,7 +2,7 @@
 	import { goto } from '$app/navigation';
 
 	function irACamara() {
-		goto('/xalapAR/camara');
+		goto('/XalapAR/camara');
 	}
 </script>
 
