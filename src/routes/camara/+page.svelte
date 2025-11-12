@@ -34,9 +34,9 @@
 <main>
 	<div style="margin: 0; overflow: hidden">
 		<a-scene embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;">
-			<a-marker type="pattern" url="../patt/sus.patt">
+			<a-marker type="pattern" url="/patt/sus.patt">
 				<a-entity
-					gltf-model="../modelos/llama.glb"
+					gltf-model="/modelos/llama.glb"
 					position="0 0 0"
 					rotation="0 100 0"
 					scale="2 2 2"
